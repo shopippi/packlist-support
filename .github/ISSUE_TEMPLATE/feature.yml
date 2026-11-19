@@ -1,0 +1,14 @@
+name: ほしい機能 / Feature request
+description: あったらうれしい機能を教えてください / Suggest an idea
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: どんな機能がほしいですか / What would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: どんなときに困っていますか / What problem does it solve?
